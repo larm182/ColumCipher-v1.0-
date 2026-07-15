@@ -83,7 +83,7 @@ El material que se guarda en el servidor viaja como JSON (llave e IV en Base64):
 
 ### 1. Clonar el repositorio
 ```bash
-git clone https://github.com/<tu-usuario>/ColumCipher.git
+git clone https://github.com/larm182/ColumCipher.git
 cd ColumCipher
 ```
 
