@@ -164,6 +164,7 @@ ColumCipher/
 - [ ] Cifrado de llaves en reposo (KMS/HSM)
 - [ ] Integridad autenticada con **AES-256-GCM**
 - [ ] Registro de auditoría y límites de tasa
+- [ ] IV/nonce único por archivo: generar un vector nuevo con un CSPRNG para cada archivo y anteponerlo al cifrado (IV || ciphertext). Reutilizar IV con la misma llave rompe la semántica de CBC y es crítico en GCM.
 
 ---
 
